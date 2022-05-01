@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 2%;
+}
+
+header {
+}
+
+.header__nav {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav li {
+    margin-right: 16%;
+}
+
+.header__nav li:last-child {
+    margin-right: 0;
+}
+
+.header__nav li a {
+    font-family: "Gilroy Bold";
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #828282;
+}
+
+.header__nav li:first-child a {
+    color: black;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+}
+
+.aboutme {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.name {
+    width: 13%;
+}
+
+.site__language {
+    transform: rotate(-90deg);
+
+    font-family: "Gilroy Bold";
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #828282;
+}
+
+.profession {
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.name {
+    font-family: "Gilroy Bold";
+    font-size: 47.3392px;
+    line-height: 59px;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.photo img {
+    width: 100%;
+    margin-top: 2%;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    padding-top: 3%;
+}
+
+footer div:first-child {
+    font-family: "Gilroy Bold";
+    margin-bottom: 2%;
+    font-size: 34px;
+    line-height: 42px;
+
+    /* Black */
+
+    color: #070707;
+}
+
+footer div {
+    width: 29%;
+    margin: auto;
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Black */
+
+    color: #070707;
+}
+
+footer button {
+    border: none;
+    margin-top: 2%;
+    width: 25%;
+    height: 42px;
+    background: #000000;
+    border-radius: 50px;
+    font-family: "Gilroy Bold";
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+
+    transition: 0.5s;
+}
+
+.links__container {
+    display: flex;
+    width: 20%;
+}
+
+.links__container a {
+    width: 100%;
+    margin-right: 15%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.links__container a:last-child {
+    margin-right: 0;
+}
+
+.links__container a:last-child:hover {
+    color: #5927b5;
+    transition: 0.5s;
+}
+
+.links__container {
+    display: flex;
+}
+
+.links__container a img {
+    width: 100%;
+}
+
+footer button:hover {
+    background-color: #484444;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.about {
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.about__background {
+    background-color: #f6f6f6;
+}
+
+.about h1 {
+    padding-top: 5%;
+
+    font-family: "Gilroy Bold";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.about p {
+    padding-bottom: 5%;
+
+    font-family: "Gilroy Medium";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.skills {
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills h1 {
+    font-family: "Gilroy Bold";
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+
+    margin-bottom: 2%;
+}
+
+.skills p {
+    font-family: "Gilroy Medium";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+
+    margin-bottom: 10%;
+}
+
+.skills__rating {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.skills__rating img {
+    width: 80%;
+}
+
+.outline {
+    width: 100%;
+    height: 0px;
+
+    border: 0.1px solid #828282;
+}
+
+.portfolio h1 {
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    font-family: "Gilroy Bold";
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.portfolio__proofs img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.portfolio__proofs p {
+    text-align: center;
+    margin-bottom: 5%;
+
+    font-family: "Gilroy Medium";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    /* Black */
+
+    color: #070707;
+}
