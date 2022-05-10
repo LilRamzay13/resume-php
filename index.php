@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/Gilroy/fonts.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 
 <body>
@@ -16,9 +16,9 @@
 
     <div class="container">
         <div class="aboutme">
-            <h1 class="name">Nikita Neznaev</h1>
-            <div class="profession">Frontend-developer</br>25 years old, Saint-Petersburg</div>
-            <div class="site__language"> <a href="">RU</a>|<a href="">ENG</a></div>
+            <h1 class="name lng-name">Nikita Neznaev</h1>
+            <div class="profession lng-profession">Frontend-developer</br>25 years old, Saint-Petersburg</div>
+           
         </div>
 
         <div class="photo"><img src="img/hero-bg.jpg" alt=""></div>
@@ -26,6 +26,8 @@
 
     <?php require "elements/footer.php" ?>
 
+    <script src="js/lang.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

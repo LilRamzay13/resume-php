@@ -2,10 +2,14 @@
     <div class="header">
 
         <ul class="header__nav">
-            <li><a class="header__link" href="index.php">Home</a></li>
-            <li><a class="header__link" href="about.php">About me</a></li>
-            <li><a class="header__link" href="skills.php">Skills</a></li>
-            <li><a class="header__link" href="portfolio.php">Portfolio</a></li>
+            <li><a class="header__link lng-homeln" href="index.php">Главная</a></li>
+            <li><a class="header__link lng-aboutln" href="about.php">Обо мне</a></li>
+            <li><a class="header__link lng-skillsln" href="skills.php">Навыки</a></li>
+            <li><a class="header__link lng-portfolioln" href="portfolio.php">Портфолио</a></li>
+            <select class="change-lang">
+                <option value="ru" selected>RU</option>
+                <option value="en">EN</option>
+            </select>
         </ul>
 
     </div> </br>

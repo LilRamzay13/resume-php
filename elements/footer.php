@@ -1,8 +1,8 @@
 <footer class="container">
-    <div>Контакты</div>
-    <div>Хотите узнать больше или просто пообщаться?</br>
+    <div class="lng-contactsln">Контакты</div>
+    <div class="lng-letstalkln">Хотите узнать больше или просто пообщаться?</br>
         Добро пожаловать!:)</div>
-    <button type="form" class="message__button">Отправить сообщение</button>
+    <button type="form" class="lng-message__button">Отправить сообщение</button>
 
     <div class="links__container">
         <a href="https://vk.com/id127922329" target="_blank"><img src="img/vk.svg" alt=""></a>

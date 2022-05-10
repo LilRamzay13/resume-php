@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/Gilroy/fonts.css">
-    <title>Document</title>
+    <title>Skills</title>
 </head>
 
 <body>
@@ -15,8 +15,8 @@
     <?php require "elements/header.php" ?>
 
     <div class="contaner skills">
-        <h1>Навыки</h1></br>
-        <p>*Все показатели, кроме умения гуглить и HTML, примерные, так как я не уверен, что знаю обо всем, что можно выучить:)</br>
+        <h1 class="lng-skillslnh1">Навыки</h1></br>
+        <p class="lng-skillslnp">*Все показатели, кроме умения гуглить и HTML, примерные, так как я не уверен, что знаю обо всем, что можно выучить:)</br>
         </p>
 
         <div class="skills__rating container">
@@ -31,6 +31,9 @@
     </div>
 
     <?php require "elements/footer.php" ?>
+
+    <script src="js/lang.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
