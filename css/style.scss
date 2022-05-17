@@ -1,9 +1,9 @@
-@import url(mixin.scss);
-
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
+
 
 ol,
 ul {
@@ -28,9 +28,6 @@ a {
   
 }
 
-.header__nav li {
-    margin-right: 16%;
-}
 
 .header__nav li:last-child {
     margin-right: 0;
@@ -59,10 +56,6 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 5%;
-}
-
-.name {
-    width: 13%;
 }
 
 .site__language {
@@ -147,6 +140,8 @@ footer button {
     color: #ffffff;
 
     transition: 0.5s;
+
+    padding: 1%;
 }
 
 .links__container {
@@ -421,10 +416,9 @@ label{
 }
 
 @media (max-width: 768px) {
+
     .header__nav{
-        width: 40%;
-        justify-content: center;
-        margin-top: 2%;
+        width: 85%;
     }
 
     footer button{

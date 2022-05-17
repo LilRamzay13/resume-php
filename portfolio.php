@@ -23,8 +23,6 @@
             <p><img src="img/portfolio_4.png" alt=""></br><a class="lng-portfolio4" target="_blank" href="https://github.com/LilRamzay13/todo">Наипростейшая реализация todo-приложения на Vue(для практики)</a></p>
             <p><img src="img/portfolio_5.png" alt=""></br><a class="lng-portfolio5" target="_blank" href="https://lilramzay13.github.io/freshmeat/">Тестовое задание в виде одной свертсанной странички</a></p>
             <p><img src="img/portfolio_6.png" alt=""></br><a class="lng-portfolio6" target="_blank" href="https://lilramzay13.github.io/test/">Сверстанные "картинки" + форма авторизации. Одно из первых тестовых заданий</a></p>
-
-
         </div>
     </div>
 
